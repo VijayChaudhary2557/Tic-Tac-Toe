@@ -1,0 +1,71 @@
+body {
+    background-image: url(banner-with-blue-orange-balls-generative-al.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 120px;
+}
+.container {
+    /* background-color: pink; */
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* width: 300px;
+    padding: 10px; */
+}
+.game {
+    background-image: linear-gradient(to bottom, rgba(8,13,21, 0.7), rgba(8,13,21, 0.7));
+    /* background-color: pink; */
+    border: 5px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    padding: 10px;
+}
+.game h1 {
+    color: rgb(0, 202, 209);
+    font-weight: bold;
+    font-size: 50px;
+}
+.myWinner {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(248, 87, 71);
+    margin: -5px;
+}
+.game-btn {
+    width: 85px;
+    height: 85px;
+    font-weight: bold;
+    font-size: 40px;
+    margin: 6px -5px;
+    border-radius: 20px;
+    border: 3px solid white;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    /* background-color: #56f4bf; */
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+}
+.btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.complete {
+    display: flex;
+    justify-content: space-around;
+}
+.myBtn {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
